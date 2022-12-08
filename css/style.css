@@ -1,4 +1,28 @@
-/* base do meu portifolio -0 */
-/* ID = # */
-/* Class = . */
 
+/* remove margins from "page content" on small screens */
+@media only screen and (max-width:600px) {main{margin-left: 0;}}
+
+.container {
+    
+}
+img {
+    width: 100px;
+    margin: 100px;
+
+}
+
+.block1 {
+    width: 500px;
+    margin: 20px auto;
+}
+
+.block2 {
+    width: 500px;
+    margin: 20px auto;
+}
+
+.footer {
+    width: 500px;
+    margin: 20px auto;
+
+}
